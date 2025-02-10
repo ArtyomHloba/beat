@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бітмейкінг</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SoundPlay</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#beats">Пісні</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <h2>Слухайте музику з нуля</h2>
+      <p>
+        Ласкаво просимо у світ пісень. Почніть слухати унікальні треки вже
+        сьогодні!
+      </p>
+      <a href="#beats" class="btn">Слухати біти</a>
+    </section>
+
+    <section id="beats" class="beats-section">
+      <h2>Рекомендації</h2>
+      <div class="beats">
+        <div class="beat">
+          <img src="./gangsta.png" alt="Біт 1" />
+          <h3>Трек 1</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://i.scdn.co/image/ab67616d0000b27314d1a203158bed18a4ea7375"
+            alt="Біт 2"
+          />
+          <h3>Трек 2</h3>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://media.pitchfork.com/photos/5e6290565efdff0008ac725b/1:1/w_800,h_800,c_limit/Eternal%20Atake_Lil%20Uzi%20Vert.jpg"
+            alt="Біт 3"
+          />
+          <h3>Трек 3</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/ru/thumb/f/f8/Pop_Smoke_Faith.jpg/274px-Pop_Smoke_Faith.jpg"
+            alt="Біт 4"
+          />
+          <h3>Трек 4</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <section id="beats" class="beats-section">
+      <div class="beats">
+        <div class="beat">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/ru/b/bd/Shoot_for_the_Stars%2C_Aim_for_the_Moon.png"
+            alt="Біт 5"
+          />
+          <h3>Трек 5</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYN_Bdw_YhaE5CWS3umooRZopxFZ8Y1sAkg&s"
+            alt="Біт 6"
+          />
+          <h3>Трек 6</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/ru/thumb/e/e0/Travis_Scott_Astroworld.jpg/274px-Travis_Scott_Astroworld.jpg"
+            alt="Біт 7"
+          />
+          <h3>Трек 7</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+
+        <div class="beat">
+          <img
+            src="https://quals.ua/image/cache/catalog/Covers/travis-scott-rodeo-vinyl-2000x2000.jpg"
+            alt="Біт 8"
+          />
+          <h3>Трек 8</h3>
+          <audio controls>
+            <source src="./assets/HolyMoly.mp3" type="audio/mpeg" />
+            Ваш браузер не підтримує елемент <code>audio</code>.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>Про нас</h2>
+      <p>
+        Ми команда професіоналів, захоплених створенням якісних бітів. Наша мета
+        — допомогти вам розкрити свій музичний потенціал.
+      </p>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Контакти</h2>
+      <form>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 SoundPlay. Всі права захищені.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

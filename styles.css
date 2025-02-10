@@ -1,0 +1,161 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #14a561;
+  background-size: 300% 300%;
+  animation: gradient 8s ease infinite;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header {
+  background-color: rgba(26, 26, 26, 0.8);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.hero {
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background-color: #ff4c4c;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.btn:hover {
+  background-color: lightcoral;
+  color: black;
+  box-shadow: 0 0 15px lightcoral;
+}
+
+.beats-section {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.beats-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.beats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.beat {
+  background-color: rgba(26, 26, 26, 0.8);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.beat img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.beat h3 {
+  margin: 1rem 0;
+}
+
+.about-section,
+.contact-section {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-section form label {
+  font-size: 1.2rem;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  width: 300px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  background-color: #ff4c4c;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: rgba(26, 26, 26, 0.8);
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: auto;
+}
